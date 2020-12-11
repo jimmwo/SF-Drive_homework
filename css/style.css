@@ -1,0 +1,215 @@
+body {
+    /*width: 1440px;*/
+    margin: 0 auto;
+    background: #FFFFFF;
+    color: #1B1B1B;
+}
+
+a {
+    color: #1B1B1B;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    flex: 33.3%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 90px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header .nav {
+    margin-left: auto
+}
+
+.header .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .nav ul li a {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.header .nav ul li a:hover {
+    border: solid 1px #1B1B1B;
+    border-radius: 5px;
+}
+
+.header .login {
+    background: #FFFFFF;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: 1px solid rgba(27, 27, 27, 0.4);
+    border-radius: 6px;
+}
+
+.header .login:hover {
+    background: rgba(27, 27, 27, 0.4);
+    color: #FFFFFF;
+}
+
+.main {
+    flex: 1;
+}
+
+.main .block {
+    display: block;
+}
+
+.main .about-as-text {
+    width: 925px;
+    font-size: 24px;
+}
+
+.main .contacts {
+    background: #F7F9FB;
+    padding: 1px 0 50px 0;
+    margin-top: 50px;
+}
+
+.main .contacts .contacts-block, .main .team .team-block {
+    display: flex;
+}
+
+.main .contacts .contacts-block .column {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+.main .contacts .contacts-block .column:first-child {
+    padding-right: 10%;
+    border-right: 1px solid #C8C8CF;
+}
+
+.main .contacts .contacts-block .column:last-child {
+    padding-left: 10%;
+}
+
+.main .contacts .contacts-block .column .contact-label {
+    font-size: 14px;
+    color: #4F4F4F;
+    margin-bottom: 5px;
+}
+
+.main .contacts .contacts-block .column .contact-value {
+    font-size: 20px;
+    color: #000000;
+}
+
+.main .team .team-block .column {
+    display: flex;
+    flex: 50%;
+    flex-wrap: wrap;
+}
+
+.main .team {
+    margin-bottom: 60px;
+}
+
+.main .team .team-block .column .member {
+    flex: 0 0 33.3333%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main .team .team-block .column .team-name {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.main .team .team-block .column .team-position {
+    font-size: 14px;
+    color: #828282;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background: #3F3D56;
+    height: 124px;
+}
+
+.footer .copyright {
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.footer .nav {
+    margin-left: auto
+}
+
+.footer .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer .nav ul li a {
+    padding: 0 10px;
+    font-size: 16px;
+}
