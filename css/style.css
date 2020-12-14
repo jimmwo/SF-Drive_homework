@@ -5,6 +5,10 @@ body {
     color: #1B1B1B;
 }
 
+ul {
+    margin: 0;
+}
+
 a {
     color: #1B1B1B;
     text-decoration: none;
@@ -16,6 +20,10 @@ h1 {
 
 h2 {
     font-size: 48px;
+}
+
+button {
+    cursor: pointer;
 }
 
 .block-center {
@@ -209,7 +217,12 @@ h2 {
     list-style: none;
 }
 
-.footer .nav ul li a {
+.footer .nav .social {
     padding: 0 10px;
     font-size: 16px;
+}
+
+.footer .nav .social img:hover {
+    background-color: #02d467;
+    border-radius: 28px;
 }
